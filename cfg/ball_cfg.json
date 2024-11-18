@@ -1,0 +1,65 @@
+{
+    "folders": [
+        {
+            "project": "volleyball_easy",
+            "workspace": "jakub-rurak",
+            "version": 1,
+            "yolo_version": "yolov11"
+        },
+
+        {
+            "project": "ball-dataset-vai",
+            "workspace": "ball-detection-vai",
+            "version": 3,
+            "yolo_version": "yolov11"
+        },
+
+        {
+            "project": "vv_dataset_only_ball",
+            "workspace": "volleyunder",
+            "version": 2,
+            "yolo_version": "yolov11"
+        },
+
+        {
+            "project": "ball-volley-rg",
+            "workspace": "rfe",
+            "version": 1,
+            "yolo_version": "yolov11"
+        },
+
+        {
+            "project": "volleyball_v2",
+            "workspace": "shukur-sabzaliev1",
+            "version": 2,
+            "yolo_version": "yolov11"
+        },
+
+        {
+            "project": "volleyball-tracking-bdtqj",
+            "workspace": "kamil-kaczmarek-txftt",
+            "version": 10,
+            "yolo_version": "yolov11"
+        }
+    ],
+
+    "main_folder": {
+        "project": "volley-ball-recognition",
+        "workspace": "aimbotcod",
+        "version": 4,
+        "yolo_version": "yolov11"
+    },
+
+    "train" : {
+        "model": "yolo11.pt",
+        "eval": "",
+        "args": {
+            "name":"v5.1.2",
+            "dropout":0.1,
+            "epochs":300,
+            "single_cls":true,
+            "cos_lr":true,
+            "augment":true
+        }
+    }
+}

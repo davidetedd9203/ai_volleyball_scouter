@@ -1,0 +1,9 @@
+ultralytics
+roboflow
+supervision
+pytubefix
+opencv-python
+# onnx 
+# onnxslim 
+# onnxruntime-gpu 
+# tensorrt
